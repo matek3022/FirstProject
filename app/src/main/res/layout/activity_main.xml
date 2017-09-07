@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="company.matek3022.firstproject.MainActivity">
+    <EditText
+        android:id="@+id/et_enter"
+        android:layout_toLeftOf="@+id/bt_enter"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_enter"
+        android:text="enter"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/et_enter"
+        android:layout_width="70dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/bt_start_activity"
+        android:text="Start"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_enter"
+        android:layout_width="70dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:text="test"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:padding="50dp"
+        android:layout_margin="50dp"
+        android:layout_alignParentTop="true"
+        android:textSize="30sp"
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
